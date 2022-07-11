@@ -1,0 +1,115 @@
+Style the body body {
+  font-family: Arial;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {
+  padding: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2f4f4f;
+  position: relative;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  justify-content: unset;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 60px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.menu {
+  float: left;
+  padding-left: 30px;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #222;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.nav-img {
+  float: left;
+  width: 88px;
+  height: 50px;
+  padding-left: 30px;
+  display: block;
+}
+.nav-title {
+  font-size: 20px;
+  padding-left: 20px;
+  color: white;
+  float: left;
+  margin: 0px;
+}
+
+.content__block {
+  background-color: #ffcccc;
+  height: 120px;
+  width: 550px;
+}
+
+.content__img {
+  width: 700px;
+  height: 300px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}

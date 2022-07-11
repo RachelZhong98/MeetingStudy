@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.title {
+  color: #6b4bc5;
+  font-weight: bold;
+  font-family: "Amatic SC", cursive;
+  font-size: 32px;
+  padding-right: 0.5rem;
+}
+.page-title {
+  background: #e7dfff;
+  font-size: 18px;
+}
+.description {
+  max-width: 500px;
+  line-height: 1.5;
+}
+.signup-button {
+  background: #e7dfff !important;
+  outline: none;
+  border: none;
+  max-width: 500px;
+  width: 100%;
+}
+.signup-button h1 {
+  font-size: 24px;
+  font-family: "Amatic SC", cursive;
+  color: #6b4bc5;
+}
+.dino-image {
+  max-width: 400px;
+}
